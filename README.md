@@ -1,4 +1,6 @@
 # Random-Dinner-generator-web-app
 This is a Random Dinner generator web application made with HTML, CSS, Flask, Pandas and JSON
-I am trying to figure out how to deploy it onto the web, but if you want to use locally you must have flask and pandas installed, as well as python
+If you want to use locally you must have flask and pandas installed, as well as python, and uncomment the app.run line/if statement
   (pip install Flask and pip install Pandas)
+
+If you want to use on the web it is now up at https://random-dinner-flask-application.onrender.com/
