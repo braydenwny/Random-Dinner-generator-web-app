@@ -35,9 +35,10 @@ def home():
                 randDinner = narrowedDown.sample(n=1)['meal'].values[0]
         session['lastDinner'] = randDinner
 
-    whereOptions = session['checkbox']
-    typeOptions = session['radio']
+   
+        return render_template('index.html', text=randDinner, whereOptions=whereOptions, typeOptions = typeOptions)
+    else:
+        whereOptions = session.get('checkbox', [])
+        typeOptions = session.get('radio', [])
 
-
-    return render_template('index.html', text=randDinner, whereOptions=whereOptions, typeOptions = typeOptions)
-
+        return render_template('index.html', whereOptions=whereOptions, typeOptions = typeOptions)
