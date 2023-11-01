@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinner Decider</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+</head>
+<body>
+    <div class="content">
+        <h1>Dinner Decider</h1>
+        <h2>Click the buttons to help narrow down any preferences</h2>
+
+        <div class="options">
+            <form action="#" method="POST">
+
+                <h2>Where would you like to get your meal?</h2>
+                <p>Select one or none the following:</p>
+                <input class ="radioInput" name = "where" type="radio" id="homemade" value="homemade" {% if whereOptions == 'homemade' %} checked {% endif %}>
+                <label class = "radioLabel" for="homemade">Homemade</label>
+                <br>
+                <input class ="radioInput" name="where" type="radio" id="fastfood" value="fastfood" {% if whereOptions == 'fastfood' %} checked {% endif %}>
+                <label class = "radioLabel" for="fastfood">Fast Food</label>
+
+                <br>
+
+                <h2>What type of food would you like?</h2>
+                <p>Select as many as you would like:</p>
+                <input  class ="checkBox" name = "type" type="checkbox" id="italian" value="italian"{% if 'italian' in typeOptions %} checked {% endif %}>
+                <label class="checkBoxLabel" for="italian">Italian</label>
+                <br>
+                <input class ="checkBox" name = "type" type="checkbox" id="asian" value="asian" {% if 'asian' in typeOptions %} checked {% endif %}>
+                <label class="checkBoxLabel" for="asian">Asian</label>
+                <br>
+                <input class ="checkBox" name = "type" type="checkbox" id="mexican" value="mexican" {% if 'mexican' in typeOptions %} checked {% endif %}>
+                <label class="checkBoxLabel" for="mexican">Mexican</label>
+                <br>
+                <input class ="checkBox" name = "type" type="checkbox" id="american" value="american" {% if 'american' in typeOptions %} checked {% endif %}>
+                <label class="checkBoxLabel" for="american">American</label>
+                <br>
+                <input class ="checkBox" name = "type" type="checkbox" id="sandwich" value="sandwich" {% if 'sandwich' in typeOptions %} checked {% endif %}>
+                <label class="checkBoxLabel"for="sandwich">Sandwich</label>
+                <br>
+
+                <input class = "submitBtn" type="submit">
+            </form>
+            
+            <br>
+            {% if text %}
+                <h2>Your random food is:</h2>
+                <h3 align="center">{{ text }}</h3>
+            {% endif %}
+
+        </div>
+
+
+    </div>
+
+    
+</body>
+</html>

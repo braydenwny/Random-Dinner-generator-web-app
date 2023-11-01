@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Titillium+Web:wght@600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Libre Baskerville', serif;
+    box-sizing: border-box;
+}
+
+.content{
+    width:100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, rgb(165, 125, 168), rgb(3, 14, 78));
+    padding: 10px;
+}
+
+.content h1{
+    text-align:center;
+    padding-top: 20px;
+}
+
+.content h2{
+    text-align: center;
+}
+
+.options{
+    width: 100%;
+    max-width: 540px;
+    background: white;
+    margin: 50px auto 20px;
+    padding: 30px 20px 30px;
+    border-radius: 12px;
+    border:2px solid black;
+    position:relative;
+}
+
+.options h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.options p{
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.radioInput{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 38%;
+    margin-bottom: 10px;
+}
+
+.radioLabel{
+    display:inline-block;
+    vertical-align: top;
+    margin-top: -2px;
+}
+
+.radioInput:hover{
+    cursor:pointer;
+}
+
+.checkBox{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 38%;
+    margin-bottom: 10px;
+}
+
+.checkBoxLabel{
+    display:inline-block;
+    vertical-align: top;
+    margin-top: -2px;
+}
+
+.checkBox:hover{
+    cursor:pointer;
+}
+
+.submitBtn{
+    text-align: center;
+    margin-left: 39%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.submitBtn:hover{
+    cursor: pointer;
+    background: lightgray;
+}

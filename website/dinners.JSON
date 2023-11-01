@@ -1,0 +1,110 @@
+[
+    {
+        "meal" : "Spaghetti",
+        "where" : "homemade",
+        "type" : "italian",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Fried Rice",
+        "where" : "homemade",
+        "type" : "asian",
+        "difficulty" : "medium",
+        "cookTime"  : "moderate" 
+    },
+    {
+        "meal" : "Peanut Butter and Jelly",
+        "where" : "homemade",
+        "type" : "sandwich",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Tacos",
+        "where" : "homemade",
+        "type" : "mexican",
+        "difficulty" : "medium",
+        "cookTime"  : "moderate" 
+    },
+    {
+        "meal" : "Meatball Sub",
+        "where" : "homemade",
+        "type" : "sandwich",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Grilled Cheese",
+        "where" : "homemade",
+        "type" : "sandwich",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Baked Beans",
+        "where" : "homemade",
+        "type" : "american",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Hot Dogs",
+        "where" : "homemade",
+        "type" : "american",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Burger",
+        "where" : "homemade",
+        "type" : "american",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Sloppy Joes",
+        "where" : "homemade",
+        "type" : "american",
+        "difficulty" : "easy",
+        "cookTime"  : "moderate" 
+    },
+    {
+        "meal" : "Quesadilla",
+        "where" : "homemade",
+        "type" : "mexican",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Mcdonald's",
+        "where" : "fastfood",
+        "type" : "american",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Burger King",
+        "where" : "fastfood",
+        "type" : "american",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Subway",
+        "where" : "fastfood",
+        "type" : "sandwich",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Chinese Takeout",
+        "where" : "fastfood",
+        "type" : "asian",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    }
+    
+    
+    
+]
