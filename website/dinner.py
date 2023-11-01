@@ -8,15 +8,18 @@ meals = pd.read_json("website/dinners.JSON")
 
 dinner = Blueprint('dinner', __name__)
 
+global prevDinner
+prevDinner = ''
+
 @dinner.route("/", methods = ['GET', 'POST'])
 def home():
-    randDinner = None
     if request.method == 'POST':
         whereOptions = request.form.get('where')
         typeOptions = request.form.getlist('type')
-
+        
         session['checkbox'] = whereOptions
         session['radio'] = typeOptions
+        session['lastDinner'] = session.get('lastDinner', None)
         narrowedDown = meals
 
         if whereOptions:
@@ -26,9 +29,11 @@ def home():
             narrowedDown = narrowedDown[narrowedDown["type"].isin( typeOptions)]
         
         randDinner = narrowedDown.sample(n=1)['meal'].values[0]
-        
-        #print(randDinner)
-        #return render_template('index.html', text=randDinner)
+
+        if session['lastDinner']:
+            while session['lastDinner'] == randDinner:
+                randDinner = narrowedDown.sample(n=1)['meal'].values[0]
+        session['lastDinner'] = randDinner
 
     whereOptions = session['checkbox']
     typeOptions = session['radio']

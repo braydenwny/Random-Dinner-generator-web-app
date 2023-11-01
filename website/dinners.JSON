@@ -103,7 +103,231 @@
         "type" : "asian",
         "difficulty" : "easy",
         "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Taco Bell",
+        "where" : "fastfood",
+        "type" : "mexican",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Goulash",
+        "where" : "homemade",
+        "type" : "italian",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Chicken Parm",
+        "where" : "homemade",
+        "type" : "italian",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Porkchops",
+        "where" : "homemade",
+        "type" : "american",
+        "difficulty" : "easy",
+        "cookTime"  : "moderate" 
+    },
+    {
+        "meal" : "Steak",
+        "where" : "homemade",
+        "type" : "american",
+        "difficulty" : "hard",
+        "cookTime"  : "moderate" 
+    },
+    {
+        "meal" : "Chicken Noodle Soup",
+        "where" : "homemade",
+        "type" : "soup",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Mac and Cheese",
+        "where" : "homemade",
+        "type" : "american",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Tacos in a Bag",
+        "where" : "homemade",
+        "type" : "mexican",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Baked Zeti",
+        "where" : "homemade",
+        "type" : "italian",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "French Onion Soup",
+        "where" : "homemade",
+        "type" : "soup",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Panera Bread",
+        "where" : "fastfood",
+        "type" : "soup",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Stir Fry",
+        "where" : "homemade",
+        "type" : "asian",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Pulled Pork",
+        "where" : "homemade",
+        "type" : "american",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Meatloaf",
+        "where" : "homemade",
+        "type" : "american",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Homemade Pizza",
+        "where" : "homemade",
+        "type" : "italian",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Pizza",
+        "where" : "fastfood",
+        "type" : "italian",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Chik-Fil-A",
+        "where" : "fastfood",
+        "type" : "american",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Baked Potatoes",
+        "where" : "homemade",
+        "type" : "american",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Lasagna",
+        "where" : "homemade",
+        "type" : "italian",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Jersey Mike's",
+        "where" : "fastfood",
+        "type" : "american",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Wendy's",
+        "where" : "fastfood",
+        "type" : "american",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Arby's",
+        "where" : "fastfood",
+        "type" : "american",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Lo Mein",
+        "where" : "homemade",
+        "type" : "asian",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Sesame Chicken",
+        "where" : "homemade",
+        "type" : "asian",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Sweet and Sour Chicken",
+        "where" : "homemade",
+        "type" : "asian",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Ravioli",
+        "where" : "homemade",
+        "type" : "italian",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Chicken Tenders",
+        "where" : "homemade",
+        "type" : "american",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Breaded Pork Chops",
+        "where" : "homemade",
+        "type" : "american",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },{
+        "meal" : "Breaded Chicken",
+        "where" : "homemade",
+        "type" : "american",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Fettucine Alfredo",
+        "where" : "homemade",
+        "type" : "italian",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Chipotle",
+        "where" : "fastfood",
+        "type" : "mexican",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
+    },
+    {
+        "meal" : "Chicken Wings",
+        "where" : "homemade",
+        "type" : "american",
+        "difficulty" : "easy",
+        "cookTime"  : "quick" 
     }
+    
     
     
     
