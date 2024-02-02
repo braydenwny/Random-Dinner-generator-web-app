@@ -52,6 +52,14 @@
             {% if text %}
                 <h2>Your random food is:</h2>
                 <h3 align="center">{{ text }}</h3>
+                <a href={{"https://google.com/search?q="+text.replace(" ", "+")+"+recipes"}}  target="_blank" rel="noopener noreferrer">
+                    <button class="recipes">Would you like to see recipes?</button>
+                </a>
+
+                <a href={{"https://google.com/search?q=restaurants+that+serve+"+text.replace(" ", "+")+"+near+me"}}  target="_blank" rel="noopener noreferrer">
+                    <button class="restaurants">Would you like to see nearby restaurants that serve this?</button>
+                </a>
+                
             {% endif %}
 
         </div>

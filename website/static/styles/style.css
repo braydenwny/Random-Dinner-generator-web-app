@@ -90,3 +90,33 @@
     cursor: pointer;
     background: lightgray;
 }
+
+.recipes {
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 25%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.recipes:hover{
+    cursor: pointer;
+    background:lightgray;
+}
+
+.restaurants {
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 5%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.restaurants:hover{
+    cursor: pointer;
+    background:lightgray;
+}
